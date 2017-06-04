@@ -176,6 +176,7 @@ a.header:hover {
 
 .center-col {
   text-align: center;
+  overflow: hidden;
 }
 
 .page-heading {
@@ -447,7 +448,7 @@ a.header:hover {
   min-height: 250px;
   width: 90%;
   object-fit: cover;
-  position: absolute;
+  //position: absolute;
   margin-left: -$spacing-unit;
   margin-right: -$spacing-unit;
   z-index: 0;
@@ -455,17 +456,12 @@ a.header:hover {
 
   @media (max-width: 955px) {
     max-height: 500px;
-    min-height: 350px;
+    min-height: 400px;
   }
 
-  @media (max-width: 768px) {
-    max-height: 500px;
-    min-height: 350px;
-  }
-
-  @media (max-width: 425px) {
-    max-height: 250px;
-    height: 250px;
+  @media (max-width: 400px) {
+    min-height: 250px;
+    max-height: 400px;
   }
 }
 
