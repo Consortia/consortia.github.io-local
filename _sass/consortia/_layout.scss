@@ -569,16 +569,16 @@ h2 {
 **/
 
 .arena-content {
-  margin-left: -$spacing-unit;
+  //margin-left: -$spacing-unit;
 
   @media (max-width: 768px) {
-    margin-left: $spacing-unit;
-    width: 100%;
+    //margin-left: $spacing-unit;
+    //width: 100%;
   }
 
   @media (max-width: 425px) {
-    margin-left: $spacing-unit;
-    width: 100%;
+    //margin-left: $spacing-unit;
+    //width: 100%;
   }
 }
 
@@ -589,7 +589,8 @@ h2 {
 }
 
 .arena-content-feed {
-  margin-left: -$spacing-unit;
+  //margin-left: -$spacing-unit;
+
 }
 
 .notes {
