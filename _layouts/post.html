@@ -24,7 +24,6 @@ layout: default
   </div>
 
  <div class="row no-gutters">
-
    <div class="col-xs-1">
       <div class="position">
          <div class="rotate">
@@ -34,33 +33,39 @@ layout: default
    </div>
 
    <div class="col-xs-11">
-     <div class="row no-gutters">
-       <div class="col-xs-10 col-sm-8" style="margin-left: -60px;">
+     <!--<div class="row no-gutters">
+       <div class="col-xs-9">-->
          <!--<time class="post-meta-small" style="float:right;" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>-->
-         {% if page.image %}
-         <img class="post-header" src="{{ site.baseurl }}/assets/images/{{ page.image }}">
-         {% endif %}
-         <div class="header-caption">{{ page.caption }}</div>
-       </div>
-       <div class="col-xs-2 col-sm-4" style="padding:0;">
-         <span class="post-title-large" itemprop="name headline">{{ page.title | escape }}</span>
-         {% if page.author %} <!--<p class="post-meta" itemprop="author" itemscope itemtype="http://schema.org/Person">-->
-         <div class="post-meta" itemprop="name">by {{ page.author }}
-          <br>{{ page.date | date: '%B %d, %Y' }}</div>
-         {% endif %}
-       </div>
-     </div>
-   </div>
-
- </div>
-
-  <div class="row no-gutters" style="height: 30px; padding-bottom: 30px; margin-right: 15px; margin-left: 15px;">
-    <div class="col-xs-12">
+      <div class="page-content">
+         <div class="post-header">
+           {% if page.image %}
+            <div>
+              <img class="post-header" src="{{ site.baseurl }}/assets/images/{{ page.image }}">
+              {% endif %}
+              <div class="header-caption">{{ page.caption }}</div>
+            </div>
+         <!--</div>-->
+         <!--<div class="col-xs-3">-->
+           <div>
+             <div class="post-title-large" itemprop="name headline">
+               {{ page.title | escape }}
+             </div>
+             {% if page.author %} <!--<p class="post-meta" itemprop="author" itemscope itemtype="http://schema.org/Person">-->
+              <div class="post-meta" itemprop="name">by {{ page.author }}
+                <br>{{ page.date | date: '%B %d, %Y' }}
+              </div>
+          <!--</div>-->
+           {% endif %}
+          </div>
+       <!--</div>
+     </div>-->
+        </div>
+      </div>
     </div>
   </div>
 
-  <div class="row no-gutters">
 
+  <div class="row no-gutters">
     <div class="col-xs-1">
        <div class="position">
           <div class="rotate">
@@ -68,10 +73,9 @@ layout: default
           </div>
         </div>
     </div>
-
-    <div class="col-xs-12 col-sm-7" style="padding-left: 0px; padding-right: 0px;">
+    <div class="col-xs-11 col-sm-7">
       <div class="post-content">
-        {{ content }}
+          {{ content }}
       </div>
     </div>
 
@@ -82,19 +86,13 @@ layout: default
           </div>
         </div>
     </div>
-
-    <div class="col-xs-12 col-sm-3" style="padding-right: 15px;">
+    <div class="col-xs-11 col-sm-3" style="padding-left: 0px; padding-right: 15px;">
       {% if page.channel %}
         {% include arena_notes.html %}
       {% endif %}
     </div>
-
   </div>
 
-  <div class="row no-gutters" style="height: 30px; padding-bottom: 30px; margin-bottom: 30px; margin-right: 15px; margin-left: 15x;">
-    <div class="col-xs-12">
-    </div>
-  </div>
 
  <div class="row no-gutters">
     <div class="col-xs-1">
@@ -104,12 +102,12 @@ layout: default
           </div>
         </div>
     </div>
-    <div class="col-xs-11" style="padding-left: 0px;">
+    <div class="col-sm-11">
       <div class="page-content">
         {% include related_posts.html %}
+      </div>
     </div>
   </div>
-</div>
 
 </div>
 

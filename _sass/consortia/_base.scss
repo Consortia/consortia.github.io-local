@@ -76,6 +76,19 @@ img {
   padding-top: $spacing-unit / 4;
   padding-bottom: $spacing-unit * 2;
 
+  @media (max-width: 955px) {
+    font-size: 0.6em;
+    line-height: 1.2;
+  }
+
+  @media (max-width: 600px) {
+    font-size: 0.5em;
+  }
+
+  @media (max-width: 525px) {
+    display: none;
+  }
+
   @media (max-width: 425px) {
     padding-bottom: $spacing-unit / 2;
   }
@@ -86,7 +99,7 @@ img {
   font-style: 300;
   font-size: 0.7em;
   color: $grey-color;
-  padding-top: $spacing-unit / 3;
+  padding-top: $spacing-unit / 4;
   padding-bottom: $spacing-unit;
 
   @media (max-width: 955px) {

@@ -27,21 +27,21 @@ channel: feed
 
 
   <div class="row no-gutters">
-    <div class="col-sm-1">
+    <div class="col-xs-1">
       <div class="position">
         <div class="rotate">
           <span class="page-heading">Blog</span>
         </div>
       </div>
     </div>
-    <div class="col-sm-7" style="padding-left: 30px; padding-right: 30px;">
+    <div class="col-sm-7">
         <div class="row no-gutters">
           <div class="page-content">
             <article class="post-list">
             {% for post in site.categories.blog %}
               <li>
               <a href="{{ site.baseurl }}{{ post.url | relative_url }}">
-                <div class="col-xs-7" style="padding-left:0; margin-left:0;">
+                <div class="col-xs-7" style="padding:0px;">
                   <img class="post-list" src="{{ site.baseurl }}/assets/images/{{ post.image }}">
                 </div>
                 <div class="col-xs-5">
@@ -63,7 +63,7 @@ channel: feed
         </div>
       </div>
     </div>
-    <div class="col-sm-3" style="padding-left: 30px; padding-right: 30px;">
+    <div class="col-sm-3">
       <div class="page-content">
         {% include arena_feed.html %}
       </div>
