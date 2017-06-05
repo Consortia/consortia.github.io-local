@@ -429,10 +429,10 @@ a.header:hover {
   }
 
   @media (max-width: 525px) {
-    font-size: 1.7em;
+    font-size: 1.6em;
     margin-left: -250%;
-    width: 400%;
-    margin-top: $spacing-unit * 1;
+    width: 450%;
+    margin-top: $spacing-unit * 0.75;
   }
 
   @media (max-width: 425px) {
@@ -446,7 +446,8 @@ a.header:hover {
 .post-header img {
   margin-bottom: $spacing-unit / 2;
   min-height: 250px;
-  width: 90%;
+  max-width: 100%;
+  min-width: 300px;
   object-fit: cover;
   //position: absolute;
   margin-left: -$spacing-unit;
@@ -459,7 +460,7 @@ a.header:hover {
     min-height: 400px;
   }
 
-  @media (max-width: 400px) {
+  @media (max-width: 425px) {
     min-height: 250px;
     max-height: 400px;
   }
@@ -483,10 +484,12 @@ a.header:hover {
 
   @media (max-width: 768px) {
     font-size: .8em;
+    padding-top: 10px;
   }
 
   @media (max-width: 425px) {
     font-size: .7em;
+    padding-top: 10px;
   }
 }
 
