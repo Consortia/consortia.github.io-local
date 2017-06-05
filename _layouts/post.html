@@ -33,36 +33,31 @@ layout: default
    </div>
 
    <div class="col-xs-11">
-     <!--<div class="row no-gutters">
-       <div class="col-xs-9">-->
-         <!--<time class="post-meta-small" style="float:right;" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>-->
-      <div class="page-content">
-         <div class="post-header">
-           {% if page.image %}
-            <div>
-              <img class="post-header" src="{{ site.baseurl }}/assets/images/{{ page.image }}">
-              {% endif %}
-              <div class="header-caption">{{ page.caption }}</div>
-            </div>
-         <!--</div>-->
-         <!--<div class="col-xs-3">-->
-           <div>
-             <div class="post-title-large" itemprop="name headline">
-               {{ page.title | escape }}
-             </div>
-             {% if page.author %} <!--<p class="post-meta" itemprop="author" itemscope itemtype="http://schema.org/Person">-->
-              <div class="post-meta" itemprop="name">by {{ page.author }}
-                <br>{{ page.date | date: '%B %d, %Y' }}
+     <div class="row no-gutters">
+       <div class="page-content">
+         <div class="col-xs-9" style="padding: 0;">
+           <!--<time class="post-meta-small" style="float:right;" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>-->
+             {% if page.image %}
+              <div>
+                <img class="post-header" src="{{ site.baseurl }}/assets/images/{{ page.image }}">
+                {% endif %}
+                <div class="header-caption">{{ page.caption }}</div>
               </div>
-          <!--</div>-->
-           {% endif %}
+            </div>
+            <div class="col-xs-3">
+               <div class="post-title-large" itemprop="name headline">
+                 {{ page.title | escape }}
+               </div>
+               {% if page.author %} <!--<p class="post-meta" itemprop="author" itemscope itemtype="http://schema.org/Person">-->
+                <div class="post-meta" itemprop="name">by {{ page.author }}
+                  <br>{{ page.date | date: '%B %d, %Y' }}
+                </div>
+               {% endif %}
+            </div>
           </div>
-       <!--</div>
-     </div>-->
         </div>
       </div>
     </div>
-  </div>
 
 
   <div class="row no-gutters">
