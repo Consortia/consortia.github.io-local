@@ -9,8 +9,4 @@ image: worldgame.jpg
 caption: Buckminster Fuller stands on a Dymaxion map used for playing his World Game simulation.
 channel: consortia-references
 ---
-TBD
-
-![image caption]({{ site.github.url }}/assets/images/test3.jpg)
-
-TBD
+Coming soon
