@@ -555,6 +555,7 @@ h2 {
 }
 
 
+
 .post-content img {
   padding-top: $spacing-unit * 2;
   height: 500px;
@@ -605,6 +606,9 @@ h2 {
   //object-fit:cover;
 }
 
+a.arena-content-feed {
+  text-decoration: none !important;
+}
 
 .notes {
   margin: 0;
