@@ -109,7 +109,10 @@ header {
   @media (max-width: 768px) {
       font-size: 1em;
     }
+}
 
+a.header-center {
+  text-decoration: none !important;
 }
 
 .header-left {
@@ -128,6 +131,33 @@ header {
 
   @media (max-width: 768px) {
     font-size: 1em;
+  }
+}
+
+a.header-left {
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline !important;
+    cursor: pointer;
+    color: black;
+  }
+
+  &:focus {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+  &:active {
+    text-decoration: underline !important;
+    cursor: pointer;
+    color: black;
+  }
+
+  &:visited {
+    text-decoration: underline !important;
+    cursor: pointer;
+    color: black;
   }
 }
 
@@ -150,11 +180,34 @@ header {
   }
 }
 
-a.header:hover {
-  color: black;
+a.header-right {
   text-decoration: none;
-  cursor: pointer;
+
+  &:hover {
+    text-decoration: underline !important;
+    cursor: pointer;
+    color: black;
+  }
+
+  &:focus {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+  &:active {
+    text-decoration: underline !important;
+    cursor: pointer;
+    color: black;
+  }
+
+  &:visited {
+    text-decoration: underline !important;
+    cursor: pointer;
+    color: black;
+  }
 }
+
+
 
 
 
@@ -406,24 +459,27 @@ a.header:hover {
   font-weight: 700;
   //display: flex;
   //margin-left: -100%;
-  font-size: 5vw;
+  font-size: 4.5vw;
   line-height: 1.2;
   position: relative;
-  margin-left: -150%;
+  margin-left: -200%;
   margin-top: $spacing-unit * 2;
-  width: 200%;
+  width: 250%;
   //margin-top: $spacing-unit * 3;
   z-index: 1;
 
-  @media (max-width: 1280px) {
-    //font-size: 3.5em;
-    //margin-left: -75%;
-    //margin-top: $spacing-unit * 2;
+  @media (max-width: 1300px) {
+    margin-left: -275%;
+    width: 375%;
+  }
+
+  @media (max-width: 900px) {
+    margin-top: $spacing-unit * 1.5;
   }
 
   @media (max-width: 768px) {
-    margin-left: -200%;
-    width: 350%;
+    margin-left: -275%;
+    width: 375%;
   }
 
   @media (max-width: 580px) {
@@ -444,6 +500,8 @@ a.header:hover {
   margin-bottom: $spacing-unit / 2;
   min-height: 150px;
   width: 100%;
+  padding: 0;
+  overflow-x: auto;
   object-fit: cover;
   //position: absolute;
   //margin-left: -$spacing-unit;
@@ -472,13 +530,20 @@ a.header:hover {
   position: relative;
   padding-left: 0px;
   z-index: 2;
+  margin-left: -50%;
   padding-top: $spacing-unit / 4;
   //top: 12.5%;
   //margin-bottom: $spacing-unit;
   white-space: nowrap;
 
+  @media (max-width: 1300px) {
+    font-size: .8em;
+    margin-left: -75%;
+  }
+
   @media (max-width: 955px) {
     font-size: .8em;
+    margin-left: -100%;
   }
 
   @media (max-width: 768px) {
@@ -541,6 +606,33 @@ h2 {
 
 
 .post-content img {
+  padding-top: $spacing-unit * 2;
+  height: 500px;
+  width: 100%;
+  object-fit:cover;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  @media (max-width: 955px) {
+    max-height: 500px;
+    min-height: 350px;
+  }
+
+  @media (max-width: 768px) {
+    max-height: 500px;
+    min-height: 350px;
+  }
+
+  @media (max-width: 425px) {
+    max-height: 250px;
+    min-height: 150px;
+    padding-top: $spacing-unit / 2;
+  }
+}
+
+
+iframe {
   padding-top: $spacing-unit * 2;
   height: 500px;
   width: 100%;

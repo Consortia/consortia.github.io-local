@@ -51,3 +51,5 @@ jekyll_get:
     json: 'http://api.are.na/v2/channels/consortia-references'
   - data: feed
     json: 'http://api.are.na/v2/channels/feed-1494976615?per=5'
+  - data: architecture-real-estate-equity
+    json: 'http://api.are.na/v2/channels/architecture-real-estate-equity'
