@@ -348,7 +348,7 @@ a.header-right {
 .post-meta-small {
   font-family: "Founders Grotesk Web";
   font-weight: 300;
-  font-size: .75em;
+  font-size: .65em;
   display: flex;
   padding-top: $spacing-unit / 4;
 
@@ -374,17 +374,17 @@ a.header-right {
   font-family: "Atlas Grotesk Web";
   font-weight: 700;
   display: inline-flex;
-  margin-left: -100%;
-  font-size: 2.3em;
+  margin-left: -125%;
+  font-size: 2em;
   line-height: 1.2;
   margin-top: $spacing-unit;
-  width: 200%;
+  width: 225%;
   z-index: 1;
 
   @media (max-width: 1280px) {
-    font-size: 1.8em;
-    margin-left: -100%;
-    width: 200%;
+    font-size: 1.5em;
+    margin-left: -125%;
+    width: 225%;
   }
 
   @media (max-width: 768px) {

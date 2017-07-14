@@ -97,7 +97,8 @@ img {
 .header-caption {
   font-family: "Founders Grotesk Web";
   font-style: 300;
-  font-size: 0.7em;
+  font-size: 0.65em;
+  line-height: 1.2;
   color: $grey-color;
   //padding-top: $spacing-unit / 4;
   padding-bottom: $spacing-unit;
@@ -191,6 +192,9 @@ a:-webkit-any-link {
 
 }
 
+a.favicon {
+  text-decoration: none !important;
+}
 
 /**
  * Blockquotes
