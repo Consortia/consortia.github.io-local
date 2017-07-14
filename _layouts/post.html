@@ -43,14 +43,14 @@ layout: default
        {% endif %}
      </div>
    </div>
-   <div class="col-xs-11 col-sm-8">
+   <div class="col-xs-11 col-sm-7">
      <!--<div class="row no-gutters">-->
        <div class="post-content">
          <!--<div class="col-xs-9" style="padding: 0;">-->
            <!--<time class="post-meta-small" style="float:right;" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>-->
              {% if page.image %}
               <div>
-                <img class="post-header" style="padding-top:0px;" src="{{ site.baseurl }}/assets/images/{{ page.image }}">
+                <img class="post-header" style="padding-top:0px; min-height: 150px;" src="{{ site.baseurl }}/assets/images/{{ page.image }}">
                 {% endif %}
                 <div class="header-caption">{{ page.caption }}</div>
               </div>
@@ -60,6 +60,13 @@ layout: default
             <!--</div>-->
           </div>
         <!--</div>-->
+      </div>
+      <div class="col-sm-1">
+         <div class="position">
+            <div class="rotate">
+              <span class="page-heading"></span>
+            </div>
+          </div>
       </div>
 
     </div>
