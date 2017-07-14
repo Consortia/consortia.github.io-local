@@ -6,7 +6,7 @@ author: Christina Badal & Leo Shaw
 categories: blog
 tags: [Sharing]
 image: jack-self-header.jpg
-caption: Home Economics, curated by Jack Self, Shumi Bose, and Finn Williams for the British Pavilion at the 2016 Venice Architecture Biennale, explored new financial models for housing.
+caption: Glass House, Jack Self's latest project in his Derivative Architecture series, is an experiment in repurposing the typical incentives that power the real estate market.
 channel: architecture-real-estate-equity
 ---
 

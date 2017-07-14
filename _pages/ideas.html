@@ -40,16 +40,16 @@ channel: feed
             <article class="post-list">
             {% for post in site.categories.blog %}
               <li>
-              <a href="{{ site.baseurl }}{{ post.url | relative_url }}">
-                <div class="col-xs-7" style="padding:0px;">
-                  <img class="post-list" src="{{ site.baseurl }}/assets/images/{{ post.image }}">
-                </div>
-                <div class="col-xs-5">
-                  <div class="post-link">{{ post.title | escape }}</div>
-                  <div class="post-meta-small">by {{ post.author }}
-                  <br>{{ post.date | date: '%B %d, %Y' }}</div>
-              </div>
-              </a>
+                <a href="{{ site.baseurl }}{{ post.url | relative_url }}">
+                  <div class="col-xs-5">
+                    <div class="post-link">{{ post.title | escape }}</div>
+                    <div class="post-meta-small">by {{ post.author }}
+                    <br>{{ post.date | date: '%B %d, %Y' }}</div>
+                  </div>
+                  <div class="col-xs-7" style="padding:0px; z-index: -100;">
+                    <img class="post-list" src="{{ site.baseurl }}/assets/images/{{ post.image }}">
+                  </div>
+                </a>
               </li>
               {% endfor %}
             </article>
