@@ -4,13 +4,13 @@
       <li style="padding-bottom: 15px; margin-top: 0px;">
           {% if block.class == "Channel" %}
             {% if block.status == "closed" %}
-            <a target="_blank" href="https://www.are.na/{{block.user.slug}}/{{block.slug}}">
+            <a class="arena-content" target="_blank" href="https://www.are.na/{{block.user.slug}}/{{block.slug}}">
               <div class="channel-block-closed">
                 <div class="channel-title-closed">{{block.title}}</div>
               </div>
             </a>
             {% else %}
-            <a target="_blank" href="https://www.are.na/{{block.user.slug}}/{{block.slug}}">
+            <a class="arena-content" target="_blank" href="https://www.are.na/{{block.user.slug}}/{{block.slug}}">
               <div class="channel-block-open">
                 <div class="channel-title-open">{{block.title}}</div>
               </div>
@@ -18,7 +18,7 @@
             {% endif %}
           {% else %}
             <!--<a target="_blank" href="https://www.are.na/block/{{block.id}}">-->
-            <a target="_blank" href="{{block.source.url}}">
+            <a class="arena-content" target="_blank" href="{{block.source.url}}">
             <div style="padding-bottom: 10px;">{{block.title}}</div>
         {% endif %}
         {% if block.image %}
