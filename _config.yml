@@ -17,7 +17,7 @@ title: Consortia
 email: info@consortia.net
 description: Consortia is a creative research and strategy office in New York. We develop new frameworks for communication.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: http://consortia.net # the base hostname & protocol for your site, e.g. http://example.com
 twitter:
   username: consortianet
 facebook:
