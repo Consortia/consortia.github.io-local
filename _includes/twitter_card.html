@@ -3,4 +3,8 @@
 <meta name="twitter:title" content="{{ page.title }}">
 <meta name="twitter:description" content="{{ page.excerpt | escape }}">
 <meta name="twitter:url" content="{{ page.url }}">
-<meta name="twitter:image:src" content="{{ site.baseurl }}/assets/images/{{ page.image }}">
+{% if page.image %}
+  <meta name="twitter:image:src" content="{{ site.url }}/assets/images/{{ page.image }}">
+{% else % }
+  <meta name="twitter:image:src" content="{{ site.url }}/assets/images/{{ post.image }}">
+{% endif % }
