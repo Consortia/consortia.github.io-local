@@ -21,10 +21,10 @@
 
   {% if page.image %}
     <meta name="twitter:image"
-      content="{{ page.image }}">
+      content="{{ site.baseurl }}/assets/images/{{ page.image }}">
   {% else %}
     <meta name="twitter:image"
-      content="{{ post.image }}">
+      content="{{ site.baseurl }}/assets/images/{{ post.image }}">
   {% endif %}
 
 
