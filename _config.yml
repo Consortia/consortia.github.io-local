@@ -52,4 +52,4 @@ jekyll_get:
   - data: feed
     json: 'http://api.are.na/v2/channels/feed-1494976615?per=5'
   - data: architecture-real-estate-equity
-    json: 'http://api.are.na/v2/channels/architecture-real-estate-equity?per=15'
+    json: 'http://api.are.na/v2/channels/architecture-real-estate-equity?per=20'
