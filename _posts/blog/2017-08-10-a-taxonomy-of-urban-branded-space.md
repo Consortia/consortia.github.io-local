@@ -55,7 +55,7 @@ Incubators like Red Bull Studios in Chelsea and MINI’s A/D/O in Greenpoint ins
 
 {% include image.html file="taxonomy-2.jpg" description="A/D/O, a 'design, retail and creative work hub' operated by MINI, opened in Greenpoint, Brooklyn at the beginning of 2017." %}
 
-AAlthough an incubator is an off-the-shelf strategy by now, brands have to achieve at least the perception of genuine symbiosis to be successful. Red Bull Studios works because it is so closely enmeshed with different music scenes, granting exposure and creative control in return for curatorship and buy-in from within the creative community.<sup>14</sup>
+Although an incubator is an off-the-shelf strategy by now, brands have to achieve at least the perception of genuine symbiosis to be successful. Red Bull Studios works because it is so closely enmeshed with different music scenes, granting exposure and creative control in return for curatorship and buy-in from within the creative community.<sup>14</sup>
 
 Similarly, A/D/O aims for a sophisticated demographic by finding partners like the Architectural League of New York and cutting-edge design studios to fill out its billing as a hub for design practice in New York City. Non-profit incubators like the New Museum’s New INC (where Consortia is located) are also designed to plug into freelance creative economies, and are available to brands as temporary sources of talent, strategic intelligence, and cultural partnerships. These relationships  highlight the reality of an urban cultural landscape rooted in new kinds of public-private cultural partnerships, where the literal space of creative practice is a valuable layer in the “stack” of any forward-looking marketing strategy.
 
