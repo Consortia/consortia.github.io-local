@@ -11,6 +11,12 @@ channel: consortia-references
 ---
 TBD
 
-![image caption]({{ site.url }}/assets/images/test3.jpg)
+{% include image.html file="growth-share-matrix-01.jpg" description="A publication accompanying the Home Economics exhibition re-writes the brief for contemporary living." %}
 
 TBD
+
+{% include image.html file="growth-share-matrix-01b.jpg" description="A publication accompanying the Home Economics exhibition re-writes the brief for contemporary living." %}
+
+TBD
+
+{% include image.html file="growth-share-matrix-02.jpg" description="A publication accompanying the Home Economics exhibition re-writes the brief for contemporary living." %}

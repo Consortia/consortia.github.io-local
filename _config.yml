@@ -46,7 +46,7 @@ exclude:
   - Gemfile.lock
 jekyll_get:
   - data: taxonomy
-    json: 'https://api.are.na/v2/channels/taxonomy-of-branded-spaces'
+    json: 'https://api.are.na/v2/channels/brand-space?per=16'
   - data: consortia-references
     json: 'http://api.are.na/v2/channels/consortia-references'
   - data: feed

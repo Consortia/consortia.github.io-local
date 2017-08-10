@@ -4,7 +4,7 @@ title:  "A Different Kind of Sharing Economy: an Interview with Jack Self"
 date:   2017-07-14 10:07:18 -0500
 author: Christina Badal & Leo Shaw
 categories: blog
-tags: [Sharing]
+tags: [Architecture]
 image: jack-self-header.jpg
 caption: Glass House, Jack Self's latest project in his Derivative Architecture series, is an experiment in repurposing the typical incentives that power the real estate market.
 channel: architecture-real-estate-equity
